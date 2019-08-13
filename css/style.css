@@ -1,0 +1,25 @@
+
+body { background: #efeff4; }
+hr {  display: block; margin-top: 0em; margin-right: -20px; border-width: 1px; }
+p { color: #41494e; text-decoration: none; line-height: 20px;}
+a:hover {text-decoration: none;}
+ul { text-align: right; list-style: none; position: absolute; top: 45%; right: 5%; margin: auto;}
+
+.hidden { display: none; }
+
+.card { margin-bottom: 15px; border-radius: 0rem; }
+.card-text { font-weight: 600; }
+
+.arrow { display: inline-block; width: 12px; height: 12px; border-top: 2px solid #ccc; border-right: 2px solid #ccc; }
+.arrow-right { transform: rotate(45deg); }
+
+.link-class:hover{ background-color:#f1f1f1;}
+.title { color: #6fb316; }
+
+.text-tarifs { color: white; }
+.tarifs_50 { background-color: #71603e; padding: 7px; width: 110px; margin-left: -20px; padding-left: 20px; }
+.tarifs_100 { background-color: #0075d9; padding: 7px; width: 120px; margin-left: -20px; padding-left: 20px; }
+.tarifs_200 { background-color: #e74707; padding: 7px; width: 120px; margin-left: -20px; padding-left: 20px; }
+
+.btn-select { background: #82c12b; color: white; border-radius: unset; } 
+.btn-select:hover {color: white; text-decoration: none;}
