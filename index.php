@@ -97,7 +97,7 @@ $file = "data/data.json";
 							<button onclick="history.back();" class="btn float-left">
 								<span class="arrow arrow-left"></span>
 							</button>
-							{{plans[$route.params.id].title}}
+							Тариф "{{plans[$route.params.id].title}}"
 						</h2>
 		</div>
 
