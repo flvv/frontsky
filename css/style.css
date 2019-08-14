@@ -1,17 +1,22 @@
 
 body { background: #efeff4; }
-hr {  display: block; margin-top: 0em; margin-right: -20px; border-width: 1px; }
-p { color: #41494e; text-decoration: none; line-height: 20px;}
+hr {  display: block; margin-right: -20px; border-width: 1px; }
+p { color: #41494e; text-decoration: none; line-height: 4px; margin-top: 1em;}
 a:hover {text-decoration: none;}
 ul { text-align: right; list-style: none; position: absolute; top: 45%; right: 5%; margin: auto;}
+
+.page-two { top: 60%;}
+.card-description { padding-top: 1px; }
 
 .hidden { display: none; }
 
 .card { margin-bottom: 15px; border-radius: 0rem; }
-.card-text { font-weight: 600; }
+.card-text { font-weight: 600; text-decoration: none; color: #41494e; }
+.card-header {background: #f7f7f8; border-radius: 2px; border-bottom: 2px solid #dcded8;}
 
 .arrow { display: inline-block; width: 12px; height: 12px; border-top: 2px solid #ccc; border-right: 2px solid #ccc; }
 .arrow-right { transform: rotate(45deg); }
+.arrow-left { transform: rotate(225deg); display: inline-block; width: 20px; height: 20px; border-top: 4px solid #6fb315; border-right: 4px solid #6fb315;}
 
 .link-class:hover{ background-color:#f1f1f1;}
 .title { color: #6fb316; }
