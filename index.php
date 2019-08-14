@@ -34,23 +34,14 @@ $file = "data/data.json";
   <title>Test task from SkyNet</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="icon" href="/favicon.ico">
-
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-  
   <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
   <script src="https://unpkg.com/vue-router/dist/vue-router.min.js"></script>
-
-  
-
-  
  </head>
  <body>
 
@@ -93,14 +84,13 @@ $file = "data/data.json";
 <script type="text/x-template" id="page2">
 	<section>
 		<div class="card card-header">
-						<h2 class="text-center">
-							<button onclick="history.back();" class="btn float-left">
-								<span class="arrow arrow-left"></span>
-							</button>
-							Тариф "{{plans[$route.params.id].title}}"
-						</h2>
+				<h2 class="text-center">
+					<button onclick="history.back();" class="btn float-left">
+						<span class="arrow arrow-left"></span>
+					</button>
+					Тариф "{{plans[$route.params.id].title}}"
+				</h2>
 		</div>
-
 		<div class="row d-flex">
 			<div v-for="(plan, index) in plans[$route.params.id].tarifs" class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
 				<div class="card">
@@ -125,17 +115,14 @@ $file = "data/data.json";
 </script>
 <script type="text/x-template" id="page3">
 	<section>
-			<div class="card card-header">
-				<h2 class="text-center">
-					<button onclick="history.back();" class="btn float-left">
-						<span class="arrow arrow-left"></span>
-					</button>
-					Выбор тарифа
-				</h2>
-			</div>
-
-
-
+		<div class="card card-header">
+			<h2 class="text-center">
+				<button onclick="history.back();" class="btn float-left">
+				<span class="arrow arrow-left"></span>
+				</button>
+				Выбор тарифа
+			</h2>
+		</div>
 		<div class="row d-flex justify-content-center">
 			<div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4">
 				<div class="card">
